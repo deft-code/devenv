@@ -28,3 +28,6 @@
 [submodule "vim/bundle/transpose-words"]
 	path = vim/bundle/transpose-words
 	url = https://github.com/vim-scripts/transpose-words.git
+[submodule "vim/bundle/golang"]
+	path = vim/bundle/golang
+	url = https://github.com/jnwhiteh/vim-golang.git
