@@ -3,7 +3,7 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
-colorscheme moria
+colorscheme molokai
 set background=dark
 set guioptions=m
 
