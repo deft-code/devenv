@@ -16,6 +16,7 @@ let NERDTreeShowBookmarks=1
 "let Tlist_Use_Right_Window = 1
 "let Tlist_WinWidth = 40
 
+set relativenumber
 set t_Co=256
 set nowrap
 set tabstop=2
@@ -26,6 +27,9 @@ set autowrite
 set vb t_vb=
 set expandtab
 set encoding=utf-8
+set wildmode=longest,list,full
+set wildmenu
+
 
 
 map <F4> :cnext<CR>
