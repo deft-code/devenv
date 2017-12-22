@@ -1,5 +1,23 @@
-call pathogen#infect()
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'deft-code/a.vim'
+Plugin 'godlygeek/csapprox'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'https://github.com/tomasr/molokai'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-sensible'
+Plugin 'vim-scripts/transpose-words'
+
+call vundle#end()
+
 syntax on
 filetype plugin indent on
 
@@ -16,6 +34,7 @@ let NERDTreeShowBookmarks=1
 "let Tlist_Use_Right_Window = 1
 "let Tlist_WinWidth = 40
 
+set directory=$HOME/.vim/swapfiles//
 set relativenumber
 set t_Co=256
 set nowrap
@@ -29,8 +48,6 @@ set expandtab
 set encoding=utf-8
 set wildmode=longest,list,full
 set wildmenu
-
-
 
 map <F4> :cnext<CR>
 map <S-F4> :cprevious<CR>
